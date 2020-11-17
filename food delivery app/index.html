@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="header__toggleBtn">
+                    <span></span>
+                </div>
+                <div class="header__user">
+                    <img src="images/icons/user.png" alt="user-icon">
+                </div>
+            </div>
+
+            <div class="header__bottom el">
+                <span class="userName">Welcome, Jalal</span>
+                <span class="header__text">Choice your Best food</span>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="search" class="form__input" placeholder="Search food">
+                        <button type="button" class="form__btn">
+                            <img src="images/icons/search-icon.svg" alt="search-icon">
+                        </button>
+                </div>
+                
+                </form>
+                <ul class="header__menu">
+                    <li class="header__menu__item"><a href="#" class="header__menu__link active">Donut</a></li>
+                    <li class="header__menu__item"><a href="#" class="header__menu__link">Pink Donut</a></li>
+                    <li class="header__menu__item"><a href="#" class="header__menu__link">Floating</a></li>
+                </ul>   
+            </div>
+
+        </header>
+
+        <ol class="open-menu">
+            <li class="open-menu__item">
+                <a href="#" class="open-menu__link">Orders archive</a>
+            </li>
+            <li class="open-menu__item">
+                <a href="#" class="open-menu__link">Edit order</a>
+            </li>
+            <li class="open-menu__item">
+                <a href="#" class="open-menu__link">About company</a>
+            </li>
+            <li class="open-menu__item">
+                <a href="#" class="open-menu__link">+998 (90) 657-89-89</a>
+            </li>
+        </ol>
+
+        <section class="foods el">
+            <a class="foodCard" href="#">
+                <div class="foodCard__img">
+                    <img src="images/donuts/tasty-donut.png"></img>
+                </div> 
+
+                <div class="foodCard__text">
+                    <span class="foodCard__name">Tasty Donut</span>
+                    <span class="foodCard__about">Spicy Tasty Donut family</span>
+                    <span class="foodCard__cost">$10.00</span>
+                </div>
+
+                <button type="button" class="foodCard__btn">+</button>
+
+            </a>
+            <a class="foodCard" href="product.html">
+                <div class="foodCard__img">
+                    <img src="images/donuts/pink-ddonut.png"></img>
+                </div> 
+
+                <div class="foodCard__text">
+                    <span class="foodCard__name">Pink Donut</span>
+                    <span class="foodCard__about">Spicy Tasty Donut family</span>
+                    <span class="foodCard__cost">$20.00</span>
+                </div>
+
+                <button type="button" class="foodCard__btn">+</button>
+
+            </a>
+            <a class="foodCard" href="#">
+                <div class="foodCard__img">
+                    <img src="images/donuts/floating-donut.png"></img>
+                </div> 
+
+                <div class="foodCard__text">
+                    <span class="foodCard__name">Floating Donut</span>
+                    <span class="foodCard__about">Spicy Tasty Donut family</span>
+                    <span class="foodCard__cost">$20.00</span>
+                </div>
+
+                <button type="button" class="foodCard__btn">+</button>
+
+            </a>
+        </section>
+
+
+
+        <nav class="nav">
+            <ol class="nav__menu mb-0">
+                <li class="nav__item">
+                    <a href="#" class="nav__link active">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 20H4C3.73478 20 3.48043 19.8946 3.29289 19.7071C3.10536 19.5196 3 19.2652 3 19V10H0L10.327 0.612C10.5111 0.444478 10.7511 0.351643 11 0.351643C11.2489 0.351643 11.4889 0.444478 11.673 0.612L22 10H19V19C19 19.2652 18.8946 19.5196 18.7071 19.7071C18.5196 19.8946 18.2652 20 18 20ZM12 18H17V8.157L11 2.703L5 8.157V18H10V12H12V18Z" fill="#FFBA00"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.99999 5.414L0.756989 2.172L2.17199 0.757L5.41399 4H20.656C20.8119 3.99999 20.9656 4.03641 21.1049 4.10637C21.2441 4.17632 21.3652 4.27786 21.4582 4.4029C21.5513 4.52793 21.6138 4.67298 21.6409 4.82649C21.6679 4.97999 21.6587 5.13769 21.614 5.287L19.214 13.287C19.1522 13.4931 19.0257 13.6738 18.8531 13.8022C18.6805 13.9307 18.4711 14 18.256 14H5.99999V16H17V18H4.99999C4.73477 18 4.48042 17.8946 4.29288 17.7071C4.10535 17.5196 3.99999 17.2652 3.99999 17V5.414ZM5.99999 6V12H17.512L19.312 6H5.99999ZM5.49999 22C5.10216 22 4.72063 21.842 4.43933 21.5607C4.15802 21.2794 3.99999 20.8978 3.99999 20.5C3.99999 20.1022 4.15802 19.7206 4.43933 19.4393C4.72063 19.158 5.10216 19 5.49999 19C5.89781 19 6.27934 19.158 6.56065 19.4393C6.84195 19.7206 6.99999 20.1022 6.99999 20.5C6.99999 20.8978 6.84195 21.2794 6.56065 21.5607C6.27934 21.842 5.89781 22 5.49999 22ZM17.5 22C17.1022 22 16.7206 21.842 16.4393 21.5607C16.158 21.2794 16 20.8978 16 20.5C16 20.1022 16.158 19.7206 16.4393 19.4393C16.7206 19.158 17.1022 19 17.5 19C17.8978 19 18.2793 19.158 18.5606 19.4393C18.842 19.7206 19 20.1022 19 20.5C19 20.8978 18.842 21.2794 18.5606 21.5607C18.2793 21.842 17.8978 22 17.5 22Z" fill="#BCBCBC"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 0H15C15.2652 0 15.5196 0.105357 15.7071 0.292893C15.8946 0.48043 16 0.734784 16 1V20.143C16.0001 20.2324 15.9763 20.3202 15.9309 20.3973C15.8855 20.4743 15.8204 20.5378 15.7421 20.5811C15.6639 20.6244 15.5755 20.6459 15.4861 20.6434C15.3968 20.641 15.3097 20.6146 15.234 20.567L8 16.03L0.766 20.566C0.690368 20.6135 0.603387 20.6399 0.514102 20.6424C0.424817 20.6449 0.336486 20.6235 0.258295 20.5803C0.180104 20.5371 0.114907 20.4738 0.0694828 20.3969C0.0240588 20.32 6.64708e-05 20.2323 0 20.143V1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0ZM14 2H2V17.432L8 13.671L14 17.432V2Z" fill="#BCBCBC"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <svg width="20" height="19" viewBox="0 0 20 19" fill="green" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.243 1.757C20.505 4.025 20.583 7.637 18.479 9.993L9.999 18.485L1.521 9.993C-0.583002 7.637 -0.504001 4.019 1.757 1.757C4.022 -0.507001 7.645 -0.583001 10.001 1.529C12.35 -0.580001 15.98 -0.510001 18.243 1.757ZM3.172 3.172C1.682 4.662 1.607 7.047 2.98 8.623L10 15.654L17.02 8.624C18.394 7.047 18.319 4.665 16.827 3.17C15.34 1.68 12.946 1.608 11.374 2.984L7.172 7.187L5.757 5.773L8.582 2.946L8.5 2.877C6.925 1.612 4.623 1.72 3.172 3.172Z" fill="#BCBCBC"/>
+                        </svg>
+                    </a>
+                </li>
+                
+            </ol>
+        </nav>
+
+        <div class="overlay"></div>
+    </div>
+
+
+
+
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(".header__toggleBtn").click(function() {
+            $(this).toggleClass("header__toggleBtn--active");
+            $(".overlay").toggleClass("overlay--active");
+            $(".open-menu").toggleClass("open-menu--active");
+            $(".el").toggleClass("el--active")
+        });
+    </script>
+</body>
+</html>

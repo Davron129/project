@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="product__wrapper">
+        <div class="product__top">
+            <a href="index.html" class="product__btn__prev"><</a>
+            <svg class="product__bell" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 15H20V17H0V15H2V8C2 5.87827 2.84285 3.84344 4.34315 2.34315C5.84344 0.842855 7.87827 0 10 0C12.1217 0 14.1566 0.842855 15.6569 2.34315C17.1571 3.84344 18 5.87827 18 8V15ZM16 15V8C16 6.4087 15.3679 4.88258 14.2426 3.75736C13.1174 2.63214 11.5913 2 10 2C8.4087 2 6.88258 2.63214 5.75736 3.75736C4.63214 4.88258 4 6.4087 4 8V15H16ZM7 19H13V21H7V19Z" fill="#292929"/>
+            </svg>
+            <img src="images/donuts/pink-ddonut.png" alt="product image" class="product__img">
+        </div>
+
+        <section class="product__data">
+            <div class="product__info">
+                <div>
+                    <span class="product__name">Pink Donut</span>
+                    <span class="product__family">Spicy Pink Donut family </span>
+                </div>
+                <span class="product__cost">$10.00</span>
+            </div>
+
+            <div class="product__delivery">
+                <div>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.66667 -3.05176e-05C5.34813 -3.05176e-05 4.0592 0.390963 2.96287 1.12351C1.86654 1.85605 1.01206 2.89724 0.507473 4.11541C0.00288856 5.33359 -0.129134 6.67403 0.128101 7.96724C0.385336 9.26044 1.02027 10.4483 1.95262 11.3807C2.88497 12.313 4.07286 12.948 5.36607 13.2052C6.65927 13.4624 7.99972 13.3304 9.21789 12.8258C10.4361 12.3212 11.4773 11.4668 12.2098 10.3704C12.9423 9.27411 13.3333 7.98518 13.3333 6.66664C13.3333 5.79116 13.1609 4.92425 12.8259 4.11541C12.4908 3.30658 11.9998 2.57165 11.3807 1.95259C10.7617 1.33353 10.0267 0.842471 9.21789 0.507439C8.40905 0.172408 7.54215 -3.05176e-05 6.66667 -3.05176e-05ZM6.66667 12C5.61184 12 4.58069 11.6872 3.70363 11.1011C2.82657 10.5151 2.14298 9.68215 1.73931 8.70761C1.33564 7.73307 1.23003 6.66072 1.43581 5.62615C1.6416 4.59159 2.14955 3.64128 2.89543 2.8954C3.64131 2.14952 4.59162 1.64157 5.62619 1.43578C6.66075 1.22999 7.73311 1.33561 8.70765 1.73928C9.68219 2.14295 10.5151 2.82653 11.1012 3.70359C11.6872 4.58066 12 5.6118 12 6.66664C12 8.08112 11.4381 9.43768 10.4379 10.4379C9.43771 11.4381 8.08116 12 6.66667 12Z" fill="#FFBA00"/>
+                        <path d="M9.33333 5.99964H7.33333V3.99964C7.33333 3.82283 7.2631 3.65326 7.13807 3.52824C7.01305 3.40322 6.84348 3.33298 6.66667 3.33298C6.48986 3.33298 6.32029 3.40322 6.19526 3.52824C6.07024 3.65326 6 3.82283 6 3.99964V6.66631C6 6.84312 6.07024 7.01269 6.19526 7.13772C6.32029 7.26274 6.48986 7.33298 6.66667 7.33298H9.33333C9.51014 7.33298 9.67971 7.26274 9.80474 7.13772C9.92976 7.01269 10 6.84312 10 6.66631C10 6.4895 9.92976 6.31993 9.80474 6.19491C9.67971 6.06988 9.51014 5.99964 9.33333 5.99964Z" fill="#FFBA00"/>
+                    </svg>
+                    <div class="delivery__time">
+                        <span>Delivery in</span>
+                        <span class="time">30 min</span>
+                    </div>
+                </div>
+                <div class="product__counter">
+                    <button type="button" id="product__count__inc" >+</button>
+                    <span class="product__count" id="product__count"></span>
+                    <button type="button" id="product__count__dec">-</button>
+                </div>
+            </div>
+
+            <div class="restaraunts__info">
+                <p class="title">Restaraunts info</p>
+                <span class="text">
+                    A restaurant (sometimes known as a diner) is a place where cooked food is sold to the public,
+                    and where people sit down to eat it.
+                </span>
+            </div>
+
+            <div class="text-center">
+                <button class="product__add">Add to cart</button>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        var int = 0;
+        var num = document.getElementById("product__count");
+        num.innerText = int;
+        document.getElementById("product__count__inc").addEventListener('click', function() {
+            num.innerText = ++int;
+        });
+
+        document.getElementById("product__count__dec").addEventListener('click', function() {
+            if(int > 0) num.innerText = --int;
+        });
+    </script>
+</body>
+</html>
